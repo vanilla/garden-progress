@@ -1,5 +1,9 @@
 # vanilla/garden-progress
 
+[![CI](https://github.com/vanilla/garden-progress/actions/workflows/ci.yml/badge.svg)](https://github.com/vanilla/garden-progress/actions/workflows/ci.yml)
+[![Packagist Version](https://img.shields.io/packagist/v/vanilla/garden-schema.svg?style=flat)](https://packagist.org/packages/vanilla/garden-progress)
+![MIT License](https://img.shields.io/packagist/l/vanilla/garden-progess.svg?style=flat)
+
 When you have long-running operations it can be useful for both UX and debugging
 to know at any given point in time what part of the operation is currently being executed,
 how much work has been completed, and how much work remains.
