@@ -1,6 +1,11 @@
 {
-  "dependencies": {
-    "@prettier/plugin-php": "^0.19.3",
-    "prettier": "^2.8.4"
-  }
+    "private": true,
+    "scripts": {
+        "prettier:check": "prettier --check .",
+        "prettier:write": "prettier --write ."
+    },
+    "dependencies": {
+        "@prettier/plugin-php": "^0.19.3",
+        "prettier": "^2.8.4"
+    }
 }
