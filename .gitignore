@@ -1,0 +1,13 @@
+# Vendors
+/vendor
+/node_modules
+
+# Because we are a library.
+composer.lock
+
+# IDEs
+.idea
+
+# Artifacts
+.DS_Store
+.phpunit.result.cache

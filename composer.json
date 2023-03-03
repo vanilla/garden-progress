@@ -1,0 +1,39 @@
+{
+    "name": "vanilla/garden-progress",
+    "description": "A PHP package for representing progress made in a long running task.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Garden\\Progress\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Garden\\Progress\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Adam Charron",
+            "email": "adam@charrondev.com"
+        }
+    ],
+    "platform": {
+        "php": ">=7.4"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*",
+        "vanilla/garden-schema": "^3.0"
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.7",
+        "phpunit/phpunit": "^9.0"
+    },
+    "scripts": {
+        "psalm": [
+            "@php ./vendor/bin/psalm"
+        ]
+    }
+}
